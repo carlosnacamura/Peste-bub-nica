@@ -8,9 +8,6 @@
 body {
     overflow-x: hidden;
 }
-img {
-    border: 3px solid white;
-}
 header {
     height: 200px;
     width: 95vw;
@@ -19,6 +16,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 .h1_logo {
     background-color: black;
@@ -75,6 +73,7 @@ button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 15px;
    transition: all 1s;
+   font-weight: bold;
 }
 button:hover {
     color: white;
@@ -82,6 +81,9 @@ button:hover {
 }
 .bot {
     background-image: linear-gradient(black,rgb(71, 70, 70));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer {
     display: flex;
@@ -91,7 +93,7 @@ footer {
     padding: 90px;
 }
 .rodape {
-    color: white;
+    color: black;
     font-weight: bold;
 }
 .titulo_rodape {
@@ -103,32 +105,22 @@ footer {
     border-radius: 50px;
 }
 .diego {
-    background-color: blue;
     padding: 9px;
     border-radius: 20px;
 }
 .rafael{
-    background-color: red;
     padding: 9px;
     border-radius: 20px;
 }
 .luisa {
-    background-color: rgb(166, 165, 165);
     padding: 9px;
     border-radius: 20px;
 }
 .pedcar {
-    background-color: black;
     padding: 9px;
     border-radius: 20px;
 }
 .lara{
-    background-color: purple;
     padding: 9px;
     border-radius: 20px;
-}
-.borda {
-    background-color: brown;
-    padding: 30px;
-    border-radius: 50px ;
 }
