@@ -8,15 +8,17 @@
 body {
     overflow-x: hidden;
 }
+img {
+    border: 3px solid white;
+}
 header {
-    background-image: url(Peste-Bubonica_50_1_50.png);
     height: 200px;
-    width: 100vw;
+    width: 95vw;
     padding: 90px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center left;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .h1_logo {
     background-color: black;
@@ -27,7 +29,7 @@ header {
     text-align: center;
     background-color: white;
     border-radius: 30px;
-    width: 50%;
+    width: 100%;
 }
 .peste {
     color: white;
@@ -88,6 +90,10 @@ footer {
     background-color: black;
     padding: 90px;
 }
+.rodape {
+    color: white;
+    font-weight: bold;
+}
 .titulo_rodape {
     color: white;
 }
@@ -97,27 +103,32 @@ footer {
     border-radius: 50px;
 }
 .diego {
-    background-image: linear-gradient(purple,red);
+    background-color: blue;
     padding: 9px;
     border-radius: 20px;
 }
 .rafael{
-    background-image: linear-gradient(black,red);
+    background-color: red;
     padding: 9px;
     border-radius: 20px;
 }
 .luisa {
-    background-image: linear-gradient(pink,purple);
+    background-color: rgb(166, 165, 165);
     padding: 9px;
     border-radius: 20px;
 }
 .pedcar {
-    background-image: linear-gradient(red,blue);
+    background-color: black;
     padding: 9px;
     border-radius: 20px;
 }
 .lara{
-    background-image: linear-gradient(black,red);
+    background-color: purple;
     padding: 9px;
     border-radius: 20px;
+}
+.borda {
+    background-color: brown;
+    padding: 30px;
+    border-radius: 50px ;
 }
